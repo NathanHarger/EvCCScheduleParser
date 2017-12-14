@@ -179,7 +179,7 @@ def get_qtr_id(qtr):
 # It is assumed that a file with name [target_qrt]_Class Schedule_EvCC.html
 # exists
 def create_schedule(target_qrt):
-    page = file(target_qrt + "_Class Schedule __ EvCC.html")
+    page = file(target_qrt + "_Schedule.html")
 
     tree = a.fromstring(page.read())
 
