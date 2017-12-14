@@ -158,7 +158,7 @@ def get_qtr_id(qtr):
         return 4
 
 def create_schedule(target_qrt):
-    page = file(target_qrt + "_Class Schedule_EvCC.html")
+    page = file(target_qrt + "_Class Schedule __ EvCC.html")
 
     tree = a.fromstring(page.read())
 
